@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>success</title>
+    </head>
+    
+    <body>
+        <div class="container">
+            
+                        <h2> Your payment was successful </h2>
+                       <p> Thank you for your payment. we will <br>
+    be in contact with more details shortly </p>      
+             <input type="submit" value="logout">
+        </div> 
+    </body>
+</html>
