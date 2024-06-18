@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            payment
+        </title>
+        <h1>payment method</h1>
+    </head>
+    <body>
+        <form action="success.html">
+            <label>Cards</label><br>
+            <input type="radio" id="visa" name="cards" value="visa">visa
+            <input type="radio" id="rupay" name="cards" value="rupay">rupay<br>
+            <input type="number" ><br>
+            <input type="password" placeholder="cvv"><br>
+            <label>"UPID"</label><br>
+            <input type="email">
+            <input type="radio" id="@ybl" name="UPID" value="@ybl">@ybl
+            <input type="radio" id="@apl" name="UPID" value="@apl">@apl<br>
+            <input type="submit" value="pay">
+
+        </form>
+    </body>
+</html>
