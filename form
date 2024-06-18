@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <meta type="UTF-8">
+    <meta name="viewport" content="width=device-width intial-scale=1.0"> 
+    <title>items</title>
+    <style>
+        .items-container{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: aquamarine;
+        }
+        .items-container{
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 10px;
+            border: 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 rgba(red, green, blue, alpha);
+
+        }
+        .items-container h2{
+            text-align: center;
+        }
+        .items-container h1{
+            text-align: center;
+        }
+        .items-container input[type="submit"]{
+            max-width: 500px;
+            margin: auto;
+            padding: 10px;
+            border: 10px;
+            border-radius: 5px;
+            color: azure;
+            cursor: pointer;
+        
+        }
+        .items-container input[type="submit"]:hower{
+            background-color: blue;
+        }
+    </style>
+    <body>
+        <div class="items-container">
+            <h1>Search Items</h1>
+            
+            <form>
+            
+                <input type="text" placeholder="Search for electronics"><br>
+                <label>LAPTOPS</label><br>
+                <input type="checkbox" id="HP">HP
+                <img src="C:\Users\Sandeep\OneDrive\Documents\Pictures\Brands/hp.jpg" width="100px" height="100px">
+                <input type="checkbox" id="LENOVA">LENOVA
+                <img src="C:\Users\Sandeep\OneDrive\Documents\Pictures\Brands/lenovo.jpg" width="100px" height="100px">
+                <input type="checkbox" id="APPLE">APPLE
+                <img src="C:\Users\Sandeep\OneDrive\Documents\Pictures\Brands/apple.jpg" width="100px" height="100px">
+                <input type="checkbox" id="dell">DELL
+                <img src="C:\Users\Sandeep\OneDrive\Documents\Pictures\Brands/dell.jpg" width="100px" height="100px"><br>
+                <label>MOBILE PHONES</label><br>
+                <input type="checkbox" id="iphone">iphone
+                <img src="C:\Users\Sandeep\OneDrive\Documents\Pictures\Brands/iphone.jpg" width="100px" height="100px">
+                <input type="checkbox" id="samsumg">Samsung
+                <img src="C:\Users\Sandeep\OneDrive\Documents\Pictures\Brands/samsung.jpg" width="100px" height="100px">
+                <input type="checkbox" id="vivo">Vivo
+                <img src="C:\Users\Sandeep\OneDrive\Documents\Pictures\Brands/vivo.jpg" width="100px" height="100px">
+                <input type="checkbox" id="realme">Realme
+                <img src="C:\Users\Sandeep\OneDrive\Documents\Pictures\Brands/realme.jpg" width="150px" height="100px"><br>
+                
+    
+    
+                
+    
+            </form>
+
+        </div>
+       
+    </body>
+</html>
